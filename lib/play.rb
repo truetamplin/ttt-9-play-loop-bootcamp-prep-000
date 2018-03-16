@@ -37,7 +37,5 @@ end
 
 # Define your play method below
 def play(board)
-  until round == 10
   turn(board)
-  end
 end
