@@ -37,7 +37,7 @@ end
 
 # Define your play method below
 play(board, round = 1)
-while round < 10 
+until round == 10 
 turn(board)
 round += 1
 end
