@@ -37,5 +37,6 @@ end
 
 # Define your play method below
 def play(board)
+  round = 1 
   turn(board)
 end
