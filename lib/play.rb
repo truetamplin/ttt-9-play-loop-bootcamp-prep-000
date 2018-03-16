@@ -40,4 +40,5 @@ end
 def play(board)
   turn(board, round = 1)
   until round == 10 
+  end
 end
