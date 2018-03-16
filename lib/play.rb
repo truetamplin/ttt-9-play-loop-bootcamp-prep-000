@@ -36,7 +36,7 @@ def turn(board)
 end
 
 # Define your play method below
-play(board, round)
+play(board, round = 1)
 while round < 10 
 turn(board)
 round += 1
