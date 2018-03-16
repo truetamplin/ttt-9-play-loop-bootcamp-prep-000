@@ -3,6 +3,7 @@
 require_relative "../lib/play"
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+round = 1
 
 puts "Welcome to Tic Tac Toe!"
 display_board(board)
