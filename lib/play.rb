@@ -39,3 +39,5 @@ end
 play(board, round)
 while round < 10 
 turn(board)
+round += 1
+end
